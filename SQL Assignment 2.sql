@@ -7,7 +7,8 @@ CREATE TABLE Books(
     price  DECIMAL(10,2) NOT NULL,
     writer VARCHAR(50) NOT NULL
     );
-    
+
+
 -- Add a new column published_year(YEAR).
 ALTER TABLE Books
 ADD published_year YEAR;
