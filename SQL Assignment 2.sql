@@ -30,7 +30,6 @@ RENAME COLUMN writer TO publisher;
 ALTER TABLE Books
 DROP COLUMN published_year;
 
-DESCRIBE Books;
 
 
 -- Drop the Books table.
